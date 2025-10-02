@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'BusReader App',
+      title: 'Bus Navigator',
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       home: WelcomeScreen(cameras: _cameras),
       debugShowCheckedModeBanner: false,
